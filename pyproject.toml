@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "daw-py"
+version = "0.1.0"
+description = ""
+authors = ["Cole Smith <smithcole@protonmail.com>"]
+readme = "README.md"
+packages = [{include = "daw_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+youtube-dl = "^2021.12.17"
+pytube = "^12.1.2"
+pydub = "^0.25.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
