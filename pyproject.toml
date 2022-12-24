@@ -10,7 +10,7 @@ packages = [{include = "daw_py"}]
 python = "^3.9"
 youtube-dl = "^2021.12.17"
 pytube = "^12.1.2"
-pydub = "^0.25.1"
+python-vlc = "^3.0.18121"
 
 
 [build-system]
